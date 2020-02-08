@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="empty_notes_title">You haven\'t created any notes yet</string>
+    <string name="empty_notes_guide">Start adding notes by clicking the compose button bellow</string>
+    <string name="action_delete_all">Delete All</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="label_edit_note">Edit Note</string>
+    <string name="label_add_new_note">Add New Note</string>
+    <string name="success_del_all_notes">All notes were deleted</string>
+    <string name="error_del_all_notes"><![CDATA[Failed to delete notes. Please check & try agin]]></string>
+    <string name="dialog_msg_del_all_notes">Do you wish to delete all notes? This action will delete all notes and cannot be reversed</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="dialog_msg_save_changes">Discard your changes and quit editing?</string>
+    <string name="action_keep_editing">Keep Editing</string>
+    <string name="action_discard">Discard</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_note">Note</string>
+    <string name="btn_change_color">Change Color</string>
+    <string name="error_empty_title">Please provide title for the note</string>
+    <string name="error_empty_note">Opps! You are saving a empty note. Please write something</string>
+    <string name="success_save_note">Note saved</string>
+    <string name="error_save_note"><![CDATA[Failed to save note. Please check & try again]]></string>
+    <string name="success_del_note">Note was deleted</string>
+    <string name="error_del_note"><![CDATA[Failed to delete note. Please check & try again]]></string>
+    <string name="dialog_title_pick_a_color">Pick a Color</string>
+    <string name="action_set_color">Set Color</string>
+    <string name="action_view_stream">View Stream</string>
+    <string name="action_view_quilt">View Quilt</string>
+    <string name="action_more">More</string>
+    <string name="action_send">Send</string>
+    <string name="intent_label_send_note">Send Note Using</string>
+    <string name="note_mime_type">text/plain</string>
+    <string name="typeface_roboto_slab">RobotoSlab-Regular.ttf</string>
+</resources>

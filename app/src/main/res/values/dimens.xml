@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sixteen">16dp</dimen>
+    <dimen name="four">4dp</dimen>
+    <dimen name="eight">8dp</dimen>
+    <dimen name="two">2dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="color_item">40dp</dimen>
+    <dimen name="scrolling_visibility_padding">72dp</dimen>
+    <dimen name="note_input_text_size">16sp</dimen>
+    <dimen name="editor_padding_sideways">20dp</dimen>
+    <dimen name="title_editor_padding_top">24dp</dimen>
+</resources>

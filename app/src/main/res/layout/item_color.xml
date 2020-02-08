@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/color_item"
+    android:layout_height="@dimen/color_item"
+    android:layout_marginRight="@dimen/eight"
+    android:background="@drawable/item_color_bg"
+    android:padding="@dimen/divider_height"
+    tools:ignore="RtlHardcoded">
+
+    <View
+        android:id="@+id/color_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:background="@color/note_green" />
+
+</FrameLayout>

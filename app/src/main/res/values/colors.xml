@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="primary_text">#212121</color>
+    <color name="white">#FFF</color>
+    <color name="secondary_text">#737373</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="dark_status_bar">#AFAFAF</color>
+
+    <!-- Notes Color Options -->
+    <color name="note_white">#FAFAFA</color>
+    <color name="note_red">#FF8A60</color>
+    <color name="note_amber_yellow">#FFD180</color>
+    <color name="note_yellow">#FFFF8D</color>
+    <color name="note_green">#CCFF90</color>
+    <color name="note_cyan">#A7FFEB</color>
+    <color name="note_light_blue">#80DAFF</color>
+    <color name="note_blue">#82B1FF</color>
+    <color name="note_purple">#B388FF</color>
+    <color name="note_pink">#F8BBD0</color>
+    <color name="note_brown">#D7CCC8</color>
+    <color name="note_blue_grey">#CFD8DC</color>
+
+    <integer-array name="note_colors">
+        <item>@color/note_white</item>
+        <item>@color/note_red</item>
+        <item>@color/note_amber_yellow</item>
+        <item>@color/note_yellow</item>
+        <item>@color/note_green</item>
+        <item>@color/note_cyan</item>
+        <item>@color/note_light_blue</item>
+        <item>@color/note_blue</item>
+        <item>@color/note_purple</item>
+        <item>@color/note_pink</item>
+        <item>@color/note_brown</item>
+        <item>@color/note_blue_grey</item>
+    </integer-array>
+
+    <!-- Input Hint Colors -->
+    <color name="note_hint_white">#AFAFAF</color>
+    <color name="note_hint_red">#B26059</color>
+    <color name="note_hint_amber_yellow">#B29259</color>
+    <color name="note_hint_yellow">#B2B262</color>
+    <color name="note_hint_green">#8EB265</color>
+    <color name="note_hint_cyan">#75B2A4</color>
+    <color name="note_hint_light_blue">#5997b2</color>
+    <color name="note_hint_blue">#5B7CB2</color>
+    <color name="note_hint_purple">#7D5FB2</color>
+    <color name="note_hint_pink">#AD8391</color>
+    <color name="note_hint_brown">#968E8C</color>
+    <color name="note_hint_blue_grey">#90979A</color>
+
+    <integer-array name="note_hint_colors">
+        <item>@color/note_hint_white</item>
+        <item>@color/note_hint_red</item>
+        <item>@color/note_hint_amber_yellow</item>
+        <item>@color/note_hint_yellow</item>
+        <item>@color/note_hint_green</item>
+        <item>@color/note_hint_cyan</item>
+        <item>@color/note_hint_light_blue</item>
+        <item>@color/note_hint_blue</item>
+        <item>@color/note_hint_purple</item>
+        <item>@color/note_hint_pink</item>
+        <item>@color/note_hint_brown</item>
+        <item>@color/note_hint_blue_grey</item>
+    </integer-array>
+
+</resources>

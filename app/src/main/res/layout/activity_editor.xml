@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/note_editor_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditorActivity">
+
+    <ScrollView
+        android:id="@+id/scroll_view_note_editor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        android:paddingBottom="@dimen/scrolling_visibility_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/input_title"
+                style="@style/NoteEditorEditTextStyle"
+                android:hint="@string/hint_title"
+                android:inputType="textCapWords"
+                android:paddingLeft="@dimen/editor_padding_sideways"
+                android:paddingTop="@dimen/title_editor_padding_top"
+                android:paddingRight="@dimen/editor_padding_sideways"
+                android:paddingBottom="@dimen/editor_padding_sideways"
+                android:textStyle="bold"
+                tools:ignore="Autofill" />
+
+            <EditText
+                android:id="@+id/input_note"
+                style="@style/NoteEditorEditTextStyle"
+                android:layout_height="match_parent"
+                android:gravity="top"
+                android:hint="@string/hint_note"
+                android:inputType="textCapSentences|textMultiLine"
+                android:paddingLeft="@dimen/editor_padding_sideways"
+                android:paddingRight="@dimen/editor_padding_sideways"
+                android:textSize="@dimen/note_input_text_size"
+                tools:ignore="Autofill" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        app:itemIconTint="@color/secondary_text"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/note_editor_bottom_nav" />
+
+</FrameLayout>

@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.WhiteTheme">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/dark_status_bar</item>
+        <item name="colorAccent">@color/secondary_text</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_home_up</item>
+        <item name="iconTint">@color/secondary_text</item>
+        <item name="android:actionOverflowButtonStyle">@style/DarkOverflowButtonStyle</item>
+        <item name="android:textCursorDrawable">@drawable/dark_cursor</item>
+    </style>
+
+    <style name="DarkOverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/secondary_text</item>
+    </style>
+
+    <style name="NoteEditorEditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/note_editor_edit_text</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textColorHint">@color/note_hint_white</item>
+    </style>
+
+</resources>
